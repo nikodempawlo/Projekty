@@ -1,5 +1,8 @@
 package Simulator.operatingsystem;
 
+import lombok.Getter;
+
+@Getter
 public class Windows extends AbstractOperatingSystem{
     private final int windowsVersion = 10;
 
@@ -8,7 +11,4 @@ public class Windows extends AbstractOperatingSystem{
         return OperatingSystemType.WINDOWS;
     }
 
-    public int getWindowsVersion() {
-        return windowsVersion;
-    }
 }

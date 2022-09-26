@@ -1,5 +1,8 @@
 package Simulator.file.imagefile;
 
+import lombok.Getter;
+
+@Getter
 public class JPGImageFile extends AbstractImageFile{
     private int compression;
 
@@ -7,10 +10,6 @@ public class JPGImageFile extends AbstractImageFile{
         super(name);
 
         this.compression = compression;
-    }
-
-    public int getCompression() {
-        return compression;
     }
 
     public void displayImage() {

@@ -1,5 +1,7 @@
 package Simulator.file.musicfile;
 
+import lombok.Getter;
+@Getter
 public class MP3MusicFile extends AbstractMusicFile{
     private final int quality;
 
@@ -12,15 +14,6 @@ public class MP3MusicFile extends AbstractMusicFile{
     @Override
     public void play() {
         System.out.println("Playing MP3 file");
-    }
-
-    public int getQuality() {
-        return quality;
-    }
-
-    @Override
-    public String getName() {
-        return name;
     }
 
     @Override

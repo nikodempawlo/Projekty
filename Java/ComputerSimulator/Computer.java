@@ -6,9 +6,14 @@ import Simulator.peripherals.Headphones;
 import Simulator.peripherals.Keyboard;
 import Simulator.peripherals.Monitor;
 import Simulator.usbdevice.USBDevice;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+
+@Getter
+@Setter
 
 public class Computer {
     private Monitor monitor;
@@ -17,7 +22,6 @@ public class Computer {
     private Headphones headphones;
     private Keyboard keyboard;
     private OperatingSystem operatingSystem;
-
     private List<USBDevice> usbDevices = new ArrayList<>();
 
     public Computer(Monitor monitor, Drive drive, OperatingSystem operatingSystem) {
@@ -31,36 +35,6 @@ public class Computer {
         this.drive = drive;
         this.extraDrive = extraDrive;
         this.operatingSystem = operatingSystem;
-    }
-
-    public Monitor getMonitor() {
-        return monitor;
-    }
-
-    public void setMonitor(Monitor monitor) {
-        this.monitor = monitor;
-    }
-
-    public Drive getDrive() {
-        return drive;
-    }
-
-    public void setDrive(Drive drive) {
-        this.drive = drive;
-    }
-
-    public Headphones getHeadphones() {
-        return headphones;
-    }
-
-    public Keyboard getKeyboard() { return keyboard; }
-
-    public void setHeadphones(Headphones headphones) {
-        this.headphones = headphones;
-    }
-
-    public List<USBDevice> getUsbDevices() {
-        return usbDevices;
     }
 
     public void addUSBDevice(USBDevice usbDevice) {

@@ -1,5 +1,8 @@
 package Simulator.operatingsystem;
 
+import lombok.Getter;
+
+@Getter
 public class MacOS extends AbstractOperatingSystem{
 
     private final double version = 12.4;
@@ -7,9 +10,5 @@ public class MacOS extends AbstractOperatingSystem{
     @Override
     public OperatingSystemType getType() {
         return OperatingSystemType.MACOS;
-    }
-
-    public double getVersion() {
-        return version;
     }
 }

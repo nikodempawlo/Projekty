@@ -1,5 +1,8 @@
 package Simulator.operatingsystem;
 
+import lombok.Getter;
+
+@Getter
 public class Linux extends AbstractOperatingSystem{
 
     private final String version = "Ubuntu studio";
@@ -7,9 +10,5 @@ public class Linux extends AbstractOperatingSystem{
     @Override
     public OperatingSystemType getType() {
         return OperatingSystemType.LINUX;
-    }
-
-    public String getVersion() {
-        return version;
     }
 }
