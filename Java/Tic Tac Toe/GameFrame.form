@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GameFrame">
+  <grid id="27dc6" binding="gameBoardPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="1" left="1" bottom="1" right="1"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="530"/>
+    </constraints>
+    <properties>
+      <background color="-9128219"/>
+      <foreground color="-9128219"/>
+    </properties>
+    <border type="none" title="Tic Tac Toe" title-justification="2" title-position="1">
+      <font name="Impact" size="14" style="2"/>
+    </border>
+    <children>
+      <grid id="a6f02" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9128219"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9ea51" class="javax.swing.JButton" binding="button21">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9535311"/>
+              <foreground color="-15724528"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="26db8" class="javax.swing.JButton" binding="button11">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9535311"/>
+              <foreground color="-15724528"/>
+              <hideActionText value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d3cbd" class="javax.swing.JButton" binding="button31">
+            <constraints>
+              <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9535311"/>
+              <foreground color="-15724528"/>
+              <horizontalTextPosition value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="41eab" class="javax.swing.JButton" binding="button12">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9535311"/>
+              <foreground color="-15724528"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ee060" class="javax.swing.JButton" binding="button22">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9535311"/>
+              <foreground color="-15724528"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="88fb5" class="javax.swing.JButton" binding="button13">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9535311"/>
+              <foreground color="-15724528"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3d2cb" class="javax.swing.JButton" binding="button23">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9535311"/>
+              <foreground color="-15724528"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c4c8" class="javax.swing.JButton" binding="button33">
+            <constraints>
+              <grid row="2" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9535311"/>
+              <foreground color="-15724528"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3602a" class="javax.swing.JButton" binding="button32">
+            <constraints>
+              <grid row="2" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9535311"/>
+              <foreground color="-15724528"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="88a2c" class="javax.swing.JLabel" binding="gameInformationLabelUpper">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Impact" size="14" style="0"/>
+          <foreground color="-14738373"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Beginning of the game"/>
+        </properties>
+      </component>
+      <component id="5b54" class="javax.swing.JLabel" binding="gameInformationLabelLower">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Impact" size="14" style="0"/>
+          <foreground color="-14738373"/>
+          <text value=" "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
